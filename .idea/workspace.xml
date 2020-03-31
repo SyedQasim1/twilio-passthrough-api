@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6058dd46-6a55-4e22-b931-c855c29b589e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1WHulo3vLDwrz8euI0I4ui4MACX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6058dd46-6a55-4e22-b931-c855c29b589e" name="Default Changelist" comment="" />
+      <created>1578818994354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578818994354</updated>
+      <workItem from="1578818995985" duration="11088000" />
+      <workItem from="1578891936650" duration="32000" />
+      <workItem from="1578895034835" duration="8860000" />
+      <workItem from="1578978736252" duration="6505000" />
+      <workItem from="1579064328548" duration="4891000" />
+      <workItem from="1579089292788" duration="6000" />
+      <workItem from="1579160182043" duration="6786000" />
+      <workItem from="1579496392527" duration="7413000" />
+      <workItem from="1579582929242" duration="9460000" />
+      <workItem from="1579774683107" duration="450000" />
+      <workItem from="1579775357105" duration="82000" />
+      <workItem from="1579775567272" duration="286000" />
+      <workItem from="1579775940323" duration="1098000" />
+      <workItem from="1579778548248" duration="3232000" />
+      <workItem from="1580019441137" duration="1828000" />
+      <workItem from="1580101443338" duration="4730000" />
+      <workItem from="1580189257660" duration="3282000" />
+      <workItem from="1580280530115" duration="829000" />
+      <workItem from="1580360640958" duration="341000" />
+      <workItem from="1580631178944" duration="436000" />
+      <workItem from="1580639161304" duration="280000" />
+      <workItem from="1580711436399" duration="599000" />
+      <workItem from="1580796497467" duration="598000" />
+      <workItem from="1580886461883" duration="429000" />
+      <workItem from="1580971445631" duration="1686000" />
+      <workItem from="1581225974074" duration="521000" />
+      <workItem from="1581310973394" duration="248000" />
+      <workItem from="1581503240766" duration="13000" />
+      <workItem from="1581919313134" duration="3906000" />
+      <workItem from="1582091909002" duration="4696000" />
+      <workItem from="1582199519062" duration="2488000" />
+      <workItem from="1582433988812" duration="398000" />
+      <workItem from="1582521315405" duration="2343000" />
+      <workItem from="1582607179946" duration="1564000" />
+      <workItem from="1582693054054" duration="1877000" />
+      <workItem from="1582779605795" duration="962000" />
+      <workItem from="1583039062167" duration="2271000" />
+      <workItem from="1583125526977" duration="1980000" />
+      <workItem from="1583211554842" duration="1395000" />
+      <workItem from="1583297776836" duration="2829000" />
+      <workItem from="1583384339859" duration="474000" />
+      <workItem from="1583423517212" duration="597000" />
+      <workItem from="1583424927844" duration="440000" />
+      <workItem from="1583690901359" duration="384000" />
+      <workItem from="1583820315034" duration="419000" />
+      <workItem from="1583902889770" duration="248000" />
+      <workItem from="1583991921488" duration="1306000" />
+      <workItem from="1584248025806" duration="2606000" />
+      <workItem from="1584335016660" duration="3762000" />
+      <workItem from="1584353975513" duration="2797000" />
+      <workItem from="1584421189086" duration="9726000" />
+      <workItem from="1584508416168" duration="770000" />
+      <workItem from="1584593030210" duration="660000" />
+      <workItem from="1584794479251" duration="5000" />
+      <workItem from="1584955131804" duration="1311000" />
+      <workItem from="1585028271797" duration="1541000" />
+      <workItem from="1585131946116" duration="51000" />
+      <workItem from="1585563504490" duration="330000" />
+      <workItem from="1585599105913" duration="38000" />
+      <workItem from="1585632888311" duration="4229000" />
+      <workItem from="1585638946782" duration="11019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1080" height="523" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585665850640">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state x="100" y="122" width="1080" height="519" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.721@0.23.1280.721" timestamp="1579781791461" />
+    <state x="100" y="122" width="1080" height="520" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.723@0.23.1280.723" timestamp="1579175163049" />
+    <state x="100" y="122" width="1080" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.724@0.23.1280.724" timestamp="1584273167727" />
+    <state x="100" y="123" width="1080" height="524" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1584955231034" />
+    <state x="100" y="123" width="1080" height="524" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.728@0.23.1280.728" timestamp="1584367404556" />
+    <state x="100" y="123" width="1080" height="524" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.729@0.23.1280.729" timestamp="1582548025820" />
+    <state x="100" y="123" width="1080" height="523" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.730@0.23.1280.730" timestamp="1585665850640" />
+    <state x="100" y="124" width="1080" height="527" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.732@0.23.1280.732" timestamp="1584427238221" />
+    <state x="100" y="123" width="1080" height="523" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1578831335156">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="100" y="123" width="1080" height="523" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1578831335156" />
+    <state x="297" y="23" width="685" height="732" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580209749617">
+      <screen x="0" y="23" width="1280" height="732" />
+    </state>
+    <state x="297" y="23" width="685" height="732" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.732@0.23.1280.732" timestamp="1580209749617" />
+  </component>
+</project>
