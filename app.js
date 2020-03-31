@@ -13,6 +13,10 @@ var app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+app.get('/', function (req, res) {
+    res.send('server is working')
+});
+
 app.post('/twilio/sms/bulk', upload.single('myCsv'), function (req, res) {
     var csvData=[];
     const toBindingObject = [];
