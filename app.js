@@ -4,6 +4,7 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const multer = require('multer');
 const upload = multer({ dest: 'uploads/' });
+const axios =  require('axios');
 require('dotenv').config();
 
 const Twilio = require('twilio');
@@ -27,9 +28,9 @@ app.post('/twilio/sms/bulk', upload.single('myCsv'), function (req, res) {
         })
         .on('end', () => {
             csvData.forEach(data => {
-                toBindingObject.push(JSON.stringify({ binding_type: 'sms', address: data['35']}))
+                const addressData = data.PHON_NUMB_1? data.PHON_NUMB_1: data['35'];
+                toBindingObject.push(JSON.stringify({ binding_type: 'sms', address: addressData}))
             });
-
             client.notify.services(process.env.NOTIFY_SERVICE_ID).notifications
                 .create({
                     toBinding: toBindingObject,
@@ -40,7 +41,42 @@ app.post('/twilio/sms/bulk', upload.single('myCsv'), function (req, res) {
             }).catch(error => { res.status(error.status).send(error) });
 
         });
+});
 
+function csvJSON(csv) {
+    const lines = csv.split('\n')
+    const result = []
+    const headers = lines[0].split(',')
+
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i])
+            continue
+        const obj = {}
+        const currentline = lines[i].split(',')
+
+        for (let j = 0; j < headers.length; j++) {
+            obj[headers[j]] = currentline[j]
+        }
+        result.push(obj)
+    }
+    return result
+}
+
+async function validatePhoneNumber(number) {
+    const result = await axios.get(`http://apilayer.net/api/validate?access_key=${process.env.ACCESS_KEY}&number=${number}`)
+    return result.data;
+}
+app.post('/numbers/verifications/bulk', upload.single('mobileNumbersCsv'), async function (req, res) {
+    var csvData=[];
+    let queryObject = [];
+    const myMap = fs.readFileSync(`uploads/${req.file.filename}`, 'utf8');
+    const data = csvJSON(myMap)
+    for (const item of data) {
+        if (item.PHONE_NUMBER) {
+            queryObject.push(await validatePhoneNumber(item.P));
+        }
+    }
+    res.send(queryObject);
 });
 
 app.listen(3001, function () {
