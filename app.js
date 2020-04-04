@@ -73,7 +73,7 @@ app.post('/numbers/verifications/bulk', upload.single('mobileNumbersCsv'), async
     const data = csvJSON(myMap)
     for (const item of data) {
         if (item.PHONE_NUMBER) {
-            queryObject.push(await validatePhoneNumber(item.P));
+            queryObject.push(await validatePhoneNumber(item.PHONE_NUMBER));
         }
     }
     res.send(queryObject);
