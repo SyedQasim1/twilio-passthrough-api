@@ -4,6 +4,8 @@
     <list default="true" id="6058dd46-6a55-4e22-b931-c855c29b589e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,11 @@
       <workItem from="1585638946782" duration="14879000" />
       <workItem from="1585935813483" duration="1446000" />
       <workItem from="1585946127104" duration="9851000" />
-      <workItem from="1585988842323" duration="682000" />
+      <workItem from="1585988842323" duration="1350000" />
+      <workItem from="1586000130806" duration="931000" />
+      <workItem from="1586084092536" duration="22000" />
+      <workItem from="1586116014981" duration="166000" />
+      <workItem from="1586181566183" duration="3776000" />
     </task>
     <servers />
   </component>
@@ -120,10 +126,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="121" width="1080" height="516" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585989546023">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state x="100" y="123" width="1080" height="513" key="DiffContextDialog" timestamp="1586186059372">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
-    <state x="100" y="121" width="1080" height="517" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.715@0.23.1280.715" timestamp="1585950895988" />
+    <state x="100" y="123" width="1080" height="513" key="DiffContextDialog/0.23.1280.715@0.23.1280.715" timestamp="1586186059372" />
+    <state x="100" y="121" width="1080" height="517" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586183767062">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="100" y="120" width="1080" height="511" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.713@0.23.1280.713" timestamp="1586182946572" />
+    <state x="100" y="121" width="1080" height="517" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.715@0.23.1280.715" timestamp="1586183767062" />
     <state x="100" y="121" width="1080" height="516" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.721@0.23.1280.721" timestamp="1585989546023" />
     <state x="100" y="122" width="1080" height="520" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.723@0.23.1280.723" timestamp="1579175163049" />
     <state x="100" y="122" width="1080" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.724@0.23.1280.724" timestamp="1584273167727" />

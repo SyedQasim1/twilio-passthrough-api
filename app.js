@@ -5,6 +5,8 @@ const csv = require('csv-parser');
 const multer = require('multer');
 const upload = multer({ dest: 'uploads/' });
 const axios =  require('axios');
+const { Parser } = require("json2csv");
+
 require('dotenv').config();
 
 const Twilio = require('twilio');
@@ -76,7 +78,12 @@ app.post('/numbers/verifications/bulk', upload.single('mobileNumbersCsv'), async
             queryObject.push(await validatePhoneNumber(item.PHONE_NUMBER));
         }
     }
-    res.send(queryObject);
+    let fields = ["valid", "number", "local_format", "international_format", "country_prefix",
+        "country_code", "country_name", "location", "carrier", "line_type"]
+    const json2csvParser = new Parser({ fields });
+    const csv = json2csvParser.parse(queryObject);
+    fs.writeFileSync(`OutputCSV/csv-${new Date()}`, csv, 'utf-8');
+    res.send({success: true});
 });
 
 app.listen(3001, function () {
